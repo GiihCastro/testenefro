@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Testes</title>
+    <link rel="stylesheet" href="css/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Perfil do Usuário -->
+        <header class="user-profile">
+            <div class="user-info">
+                <img src="assets/user-avatar.png" alt="Avatar do usuário" class="user-avatar">
+                <div>
+                    <h2>Olá, <span class="highlight">Fabio</span></h2>
+                    <p>fabiouser@gmail.com</p>
+                </div>
+            </div>
+            <i class="material-icons settings-icon">settings</i>
+        </header>
+
+        <!-- Desempenho -->
+        <section class="performance">
+            <h3>Desempenho <i class="material-icons expand-icon">expand_more</i></h3>
+        </section>
+
+        <!-- Último Teste -->
+        <section class="last-test">
+            <h4>Último teste</h4>
+            <div class="last-test-info">
+                <div class="last-test-details">
+                    <h5>Teste 1</h5>
+                    <p>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+                </div>
+                <img src="assets/test-image.png" alt="Teste 1" class="test-image">
+                <div class="test-score">10/10</div>
+            </div>
+        </section>
+
+        <!-- Todos os Testes -->
+        <section class="all-tests">
+            <div class="section-header">
+                <h4>Todos os testes</h4>
+                <a href="#" class="view-all">Ver todos</a>
+            </div>
+            <div class="test-list">
+                <div class="test-item">
+                    <img src="assets/test-image.png" alt="Teste 1" class="test-image">
+                    <div class="test-info">
+                        <h5>Teste 1</h5>
+                        <p>50% de acerto</p>
+                    </div>
+                    <i class="material-icons favorite-icon">favorite_border</i>
+                </div>
+
+                <div class="test-item">
+                    <img src="assets/test-image.png" alt="Teste 2" class="test-image">
+                    <div class="test-info">
+                        <h5>Teste 2</h5>
+                        <p>50% de acerto</p>
+                    </div>
+                    <i class="material-icons favorite-icon">favorite_border</i>
+                </div>
+
+                <!-- Repetir para outros testes -->
+            </div>
+        </section>
+
+        <!-- Barra de Navegação -->
+        <nav class="bottom-nav">
+            <i class="material-icons">home</i>
+            <i class="material-icons">history</i>
+            <div class="add-test-button">
+                <i class="material-icons">add</i>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
